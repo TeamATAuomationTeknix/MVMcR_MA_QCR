@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_master"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Master Data" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Master Images" />
+
+        <item
+            android:id="@+id/nav_current_page"
+            android:icon="@drawable/next"
+            android:title="Current Data" />
+        <item
+            android:id="@+id/nav_battery_check"
+            android:icon="@drawable/ic_action_battery"
+            android:title="Battery Status" />
+        <item
+            android:id="@+id/nav_change_ip"
+            android:icon="@drawable/ic_change_ip"
+            android:title="IP Address" />
+    </group>
+
+    <item android:title="Close">
+
+        <menu>
+            <item
+                android:id="@+id/nav_restart"
+                android:icon="@drawable/restart"
+                android:title="Restart" />
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Exit" >
+            </item>
+        </menu>
+    </item>
+</menu>
